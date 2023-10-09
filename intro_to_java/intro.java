@@ -1,9 +1,15 @@
 public class intro {
-    public static void main(String args[]) {
-       int a=10;
-       int b=20;
-       int c=(a+b);
-       System.out.println(c);
-       System.out.print("hello");
+    int a = 100;
+    int b = 200;
+
+    public void addTwoNumbers() {
+        int c = this.a + this.b;
+        System.out.print(c);
     }
+
+    public static void main(String args[])
+    {
+        
+    }
+
 }
