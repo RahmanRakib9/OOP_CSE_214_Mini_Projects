@@ -1,7 +1,9 @@
-
-class intro{
-       public static void main(String[] args) {
-    	
-        System.out.println("Java programming is interesting.");   
+public class intro {
+    public static void main(String args[]) {
+       int a=10;
+       int b=20;
+       int c=(a+b);
+       System.out.println(c);
+       System.out.print("hello");
     }
 }
