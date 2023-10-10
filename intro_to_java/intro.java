@@ -1,17 +1,10 @@
 class Main {
     public static void main(String args[]) {
-        int id = 6191;
-        int age = 21;
-        int temp;
+        int[] myNum = { 1, 2, 3, 4, 5,6 };
 
-        System.out.println(age);
-        System.out.println(id);
+        for (int i : myNum) {
+            System.out.print(i);
+        }
 
-        temp = id;
-        id = age;
-        age = temp;
-
-        System.out.println(age);
-        System.out.println(id);
     }
 }
