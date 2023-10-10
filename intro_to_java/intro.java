@@ -1,10 +1,17 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String args[]) {
-        int[] myNum = { 1, 2, 3, 4, 5,6 };
+        Scanner myObj = new Scanner(System.in);
 
-        for (int i : myNum) {
-            System.out.print(i);
-        }
+        System.out.println("Enter userName");
+        String userName = myObj.nextLine();
+
+        System.out.println("Enter Id");
+        int id = myObj.nextInt();
+
+        System.out.println("userName is "+ userName);
+        System.out.println("id is "+id);
 
     }
 }
