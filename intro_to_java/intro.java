@@ -1,15 +1,17 @@
-public class intro {
-    int a = 100;
-    int b = 200;
+class Main {
+    public static void main(String args[]) {
+        int id = 6191;
+        int age = 21;
+        int temp;
 
-    public void addTwoNumbers() {
-        int c = this.a + this.b;
-        System.out.print(c);
+        System.out.println(age);
+        System.out.println(id);
+
+        temp = id;
+        id = age;
+        age = temp;
+
+        System.out.println(age);
+        System.out.println(id);
     }
-
-    public static void main(String args[])
-    {
-        
-    }
-
 }
