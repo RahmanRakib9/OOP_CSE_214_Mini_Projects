@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /**
  * This file is responsible for borrow a book
- * if user has already logged-in then he can borrow the books otherwise
+ * if user has already logged-in then he can borrow the book otherwise
  * he can't
  */
 public class BorrowBook {

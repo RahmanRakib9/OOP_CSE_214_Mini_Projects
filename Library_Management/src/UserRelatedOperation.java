@@ -1,6 +1,6 @@
 /*
  * This file is responsible for user related operation like register a new user,display existing users
- * and find user by their name
+ * and find user by their exact contact number
  */
 
 import java.util.ArrayList;

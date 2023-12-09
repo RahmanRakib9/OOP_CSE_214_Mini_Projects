@@ -1,5 +1,6 @@
 /*
-This file is responsible for book related operations like register a book,display books,find book
+This file is responsible for book related operations like register a new book,display books,find book
+by book name
 */
 
 import java.util.ArrayList;

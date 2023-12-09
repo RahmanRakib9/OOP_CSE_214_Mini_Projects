@@ -1,5 +1,5 @@
 /**
- * This User class is responsible for create a new user
+ * This User class is responsible for create a new user by defining user name and mobile number
  */
 public class User {
     private String name;
