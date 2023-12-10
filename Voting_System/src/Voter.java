@@ -51,7 +51,7 @@ public class Voter {
      */
     @Override
     public String toString() {
-        return "User [name=" + name + ", NID=" + NID + ", address=" + address + "]";
+        return "Voter [name=" + name + ", NID=" + NID + ", address=" + address + "]";
     }
 
 }
