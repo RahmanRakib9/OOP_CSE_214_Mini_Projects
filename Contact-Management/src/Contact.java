@@ -1,8 +1,4 @@
-/**
- * This Contact class is responsible for create a new contact by user name and
- * phone number
- */
-
+// Contact.java
 public class Contact {
     private String name;
     private String phoneNumber;
