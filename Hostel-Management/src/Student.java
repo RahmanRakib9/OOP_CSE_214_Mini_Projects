@@ -1,4 +1,7 @@
-
+/**
+ * This Student class is responsible for create a new student by defining
+ * student properties like student name,id,room etc
+ */
 public class Student {
     String name;
     String id;

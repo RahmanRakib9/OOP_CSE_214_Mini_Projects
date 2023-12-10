@@ -1,12 +1,16 @@
+
 /**
- * MainClass
+ *This MainClass is an entry point of this project,Program execution will start from this file
  */
 
 import java.util.Scanner;
 import java.util.ArrayList;
+
 public class MainClass {
     public static void main(String[] args) {
+        System.out.println("===============");
         System.out.println("Welcome to hostel management system");
+        System.out.println("===============");
 
         Scanner scanner = new Scanner(System.in);
         ArrayList<Student> students = new ArrayList<Student>();
@@ -25,11 +29,11 @@ public class MainClass {
             if (choice == 1) {
                 operation.registration(students);
             } else if (choice == 2) {
-                operation.serchbyId(students);
+                operation.searchById(students);
             } else if (choice == 3) {
                 operation.delete(students);
             } else if (choice == 4) {
-                operation.serchbyYear(students);
+                operation.searchByYear(students);
             } else if (choice == 0)
                 break;
             {
