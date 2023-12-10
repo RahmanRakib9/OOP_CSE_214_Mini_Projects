@@ -13,6 +13,7 @@ public class MainClass {
         System.out.println("===============");
 
         Scanner scanner = new Scanner(System.in);
+        
 
         while (true) {
             System.out.println("\nContact Management System");
