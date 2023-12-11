@@ -7,9 +7,6 @@ This project provides basic functionalities for managing blood donors. Donors ca
 
 
 
-
-
-
 ## Features
 
 - Donor registration
