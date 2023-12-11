@@ -19,9 +19,9 @@ public class MainClass {
 
         while (true) {
             System.out.println("1 for student registration");
-            System.out.println("2 for student serch by id");
+            System.out.println("2 for student search by id");
             System.out.println("3 for remove student by id");
-            System.out.println("4 for serch student by year");
+            System.out.println("4 for search student by year");
             System.out.println("0 for exit the system");
 
             choice = scanner.nextInt();
