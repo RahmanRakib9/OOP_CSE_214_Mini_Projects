@@ -10,7 +10,7 @@ public class MainClass {
     public static void main(String[] args) {
         display("Welcome to Library Management Application");
 
-        //list for storing the user and the book
+        // list for storing the user and the book
         ArrayList<Book> books = new ArrayList<>();
         ArrayList<User> users = new ArrayList<>();
 
